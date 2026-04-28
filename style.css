@@ -291,6 +291,25 @@ body {
   box-shadow: 0 20px 30px -12px rgba(0,0,0,0.5);
   background: rgba(22, 30, 45, 0.8);
 }
+.project-card.featured {
+  border: 1.5px solid #3b82f6;
+  background: linear-gradient(145deg, rgba(30, 50, 90, 0.35), rgba(15, 20, 30, 0.8));
+  box-shadow: 0 10px 30px rgba(59,130,246,0.15);
+  position: relative;
+}
+.project-card.featured::before {
+  content: '★ Featured';
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.6rem;
+  background: #3b82f6;
+  color: white;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
 .project-icon {
   font-size: 2.2rem;
   color: #60a5fa;
