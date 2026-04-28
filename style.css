@@ -227,6 +227,22 @@ body {
   border-radius: 4px;
 }
 
+.contact-section {
+  margin: 2rem 0;
+  background: rgba(12, 18, 28, 0.7);
+  border-radius: 2rem;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s;
+}
+.contact-info a {
+  display: block;
+  flex-direction: column;
+  margin: 0.5rem 0;
+  text-decoration: none;
+  color: white;
+}
+
 .footer {
   margin-top: 5rem;
   text-align: center;
