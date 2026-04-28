@@ -208,7 +208,6 @@ body {
   to { opacity: 1; transform: translateY(0);}
 }
 
-/* section heading */
 .section-title {
   font-size: 2.2rem;
   font-weight: 700;
@@ -225,6 +224,50 @@ body {
   height: 4px;
   background: linear-gradient(90deg, #3b82f6, #a855f7);
   border-radius: 4px;
+}
+
+.info-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.info-card {
+  flex: 1;
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(8px);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid #2d3a5e;
+  transition: 0.2s;
+}
+.info-card i {
+  font-size: 2rem;
+  color: #3b82f6;
+  margin-bottom: 1rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.skill-tag {
+  background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(4px);
+  padding: 0.75rem 1.5rem;
+  border-radius: 60px;
+  font-weight: 500;
+  transition: all 0.2s;
+  border: 1px solid rgba(59,130,246,0.3);
+  font-size: 0.9rem;
+}
+.skill-tag:hover {
+  transform: scale(1.05);
+  background: #1e2a44;
+  border-color: #3b82f6;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .contact-section {
